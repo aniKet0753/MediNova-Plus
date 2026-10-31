@@ -17,7 +17,7 @@ export const steps = [
     title: 'Welcome to MediSync! 👋',
     subtitle: 'Your Personal Health Hub',
     description:
-      "MediSync keeps your entire health life in one secure, beautiful place. Let's take a quick 30-second tour so you know exactly where everything is.",
+      "MediNova Plus+ keeps your entire health life in one secure, beautiful place. Let's take a quick 30-second tour so you know exactly where everything is.",
     cta: 'Start Tour',
   },
   {
@@ -87,7 +87,7 @@ export const steps = [
     title: "You're all set, Jivan! 🎉",
     subtitle: 'Start Your Health Journey',
     description:
-      'Your MediSync account is ready. Add your first medical record, book an appointment, or explore the pharmacy hub. Your health data is always safe and private.',
+      'Your MediNova Plus+ account is ready. Add your first medical record, book an appointment, or explore the pharmacy hub. Your health data is always safe and private.',
     cta: 'Go to Dashboard',
   },
 ];

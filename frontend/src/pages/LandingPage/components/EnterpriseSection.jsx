@@ -33,7 +33,7 @@ const EnterpriseSection = () => {
             Request Demo
           </button>
           <button 
-            onClick={() => window.open('https://github.com/priyabratasahoo780/mediSync', '_blank')}
+            onClick={() => window.open('https://github.com/aniKet0753/MediNova-Plus', '_blank')}
             className="px-16 py-8 bg-[#ecf0f3] dark:bg-white/5 text-slate-900 dark:text-white rounded-[2.5rem] font-black text-[1.2rem] uppercase tracking-[0.2em] border border-slate-200 dark:border-white/10 nm-button hover:bg-slate-50 transition-all"
           >
             Read Whitepaper
