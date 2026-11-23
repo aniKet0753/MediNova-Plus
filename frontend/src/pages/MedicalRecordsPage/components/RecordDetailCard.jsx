@@ -88,7 +88,7 @@ const RecordDetailCard = ({ record, onDelete }) => {
   const dateStr = isNaN(dateObj.getTime())
     ? 'Recent Report'
     : dateObj.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-  const shareLink = `https://medisync.app/secure/${record._id}`;
+  const shareLink = `https://MediNovaPlus.app/secure/${record._id}`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(shareLink);

@@ -21,7 +21,7 @@ const CreateShareLink = () => {
 
   const handleGenerate = () => {
     if (!email.trim()) return;
-    const fake = `https://medisync.app/share/${Math.random().toString(36).substr(2, 12)}`;
+    const fake = `https://MediNovaPlus.app/share/${Math.random().toString(36).substr(2, 12)}`;
     setLink(fake);
     setGenerated(true);
     setTimeout(() => setGenerated(false), 6000);

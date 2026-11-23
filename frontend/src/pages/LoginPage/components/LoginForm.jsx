@@ -17,7 +17,7 @@ const LoginForm = ({ formik, role, isLoading }) => {
           <input
             {...formik.getFieldProps('email')}
             placeholder={
-              role === 'Doctor' ? 'hospital.id@medisync.app' : 'you@example.com or 9999999999'
+              role === 'Doctor' ? 'hospital.id@MediNovaPlus.app' : 'you@example.com or 9999999999'
             }
             className={`w-full py-4 pl-12 pr-4 nm-inset rounded-2xl text-[0.9rem] font-bold text-slate-800 dark:text-white border-none focus:outline-none ${formik.errors.email && formik.touched.email ? 'ring-2 ring-red-400/20' : ''}`}
             autoComplete="off"

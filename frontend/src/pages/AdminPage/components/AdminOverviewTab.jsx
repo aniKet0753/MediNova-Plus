@@ -19,7 +19,7 @@ const MOCK_STATS = {
 };
 
 const MOCK_RECENT_USERS = [
-  { _id: 'mu1',  name: 'Dr. Arjun Mehta',     email: 'arjun.mehta@medisync.in',     role: 'Doctor',  createdAt: '2026-04-30T10:22:00Z' },
+  { _id: 'mu1',  name: 'Dr. Arjun Mehta',     email: 'arjun.mehta@MediNovaPlus.in',     role: 'Doctor',  createdAt: '2026-04-30T10:22:00Z' },
   { _id: 'mu2',  name: 'Priya Sharma',         email: 'priya.sharma@gmail.com',       role: 'Patient', createdAt: '2026-04-30T09:15:00Z' },
   { _id: 'mu3',  name: 'Dr. Sunita Rao',       email: 'sunita.rao@clinics.com',       role: 'Doctor',  createdAt: '2026-04-29T18:45:00Z' },
   { _id: 'mu4',  name: 'Rahul Gupta',          email: 'rahul.gupta@email.com',        role: 'Patient', createdAt: '2026-04-29T14:30:00Z' },
@@ -27,7 +27,7 @@ const MOCK_RECENT_USERS = [
   { _id: 'mu6',  name: 'Ananya Iyer',          email: 'ananya.iyer@patient.net',      role: 'Patient', createdAt: '2026-04-28T20:10:00Z' },
   { _id: 'mu7',  name: 'Dr. Kavita Singh',     email: 'kavita.singh@medcollege.in',   role: 'Doctor',  createdAt: '2026-04-28T17:00:00Z' },
   { _id: 'mu8',  name: 'Ravi Shankar',         email: 'ravi.shankar@connect.com',     role: 'Patient', createdAt: '2026-04-28T13:40:00Z' },
-  { _id: 'mu9',  name: 'Admin Priyabrata',     email: 'admin@medisync.io',            role: 'Admin',   createdAt: '2026-04-27T09:00:00Z' },
+  { _id: 'mu9',  name: 'Admin Priyabrata',     email: 'admin@MediNovaPlus.io',            role: 'Admin',   createdAt: '2026-04-27T09:00:00Z' },
   { _id: 'mu10', name: 'Dr. Deepak Kapoor',    email: 'deepak.kapoor@apollo.com',     role: 'Doctor',  createdAt: '2026-04-27T08:30:00Z' },
   { _id: 'mu11', name: 'Meena Pillai',         email: 'meena.pillai@wellness.net',    role: 'Patient', createdAt: '2026-04-26T16:55:00Z' },
   { _id: 'mu12', name: 'Dr. Rohit Verma',      email: 'rohit.verma@surgery.org',      role: 'Doctor',  createdAt: '2026-04-26T12:20:00Z' },

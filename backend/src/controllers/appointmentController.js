@@ -58,7 +58,7 @@ const createAppointment = async (req, res, next) => {
       location: type === 'In Person' ? location || doctor.hospital : undefined,
       meetingLink:
         type === 'Video Consult'
-          ? `https://medisync.app/meet/${Math.random().toString(36).substring(7)}`
+          ? `https://MediNovaPlus.app/meet/${Math.random().toString(36).substring(7)}`
           : undefined,
     });
 

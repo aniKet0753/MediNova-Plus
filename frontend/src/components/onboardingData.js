@@ -87,7 +87,7 @@ export const steps = [
     title: "You're all set, Jivan! 🎉",
     subtitle: 'Start Your Health Journey',
     description:
-      'Your MediNova Plus+ account is ready. Add your first medical record, book an appointment, or explore the pharmacy hub. Your health data is always safe and private.',
+      'Your MediSync account is ready. Add your first medical record, book an appointment, or explore the pharmacy hub. Your health data is always safe and private.',
     cta: 'Go to Dashboard',
   },
 ];

@@ -104,7 +104,7 @@ const DocumentViewerOverlay = ({ record, pdfBlobUrl, onClose }) => {
 
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03] rotate-[-30deg]">
               <span className="text-[5rem] font-black text-slate-900 dark:text-white border-8 border-current px-12 py-6 rounded-[2rem]">
-                MEDISYNC SECURE
+                MediNova Plus+ SECURE
               </span>
             </div>
 

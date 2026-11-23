@@ -179,7 +179,7 @@ const DesktopSidebar = ({
       {!collapsed && (
         <div className="px-5 py-3 border-t border-[#cbced1] dark:border-slate-800 bg-[#ecf0f3] dark:bg-[#151E32]">
           <p className="text-[0.6rem] font-bold text-gray-400 dark:text-slate-500 tracking-wider">
-            MEDISYNC v2.1.0 · © 2026
+            MediNova Plus+ v2.1.0 · © 2026
           </p>
         </div>
       )}

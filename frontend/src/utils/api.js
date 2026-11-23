@@ -4,7 +4,7 @@ const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL || 
     (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
       ? 'http://localhost:5000' 
-      : 'https://medisync-gxiy.onrender.com'),
+      : 'https://MediSync-gxiy.onrender.com'),
   timeout: 30000, 
 });
 
@@ -18,7 +18,7 @@ api.interceptors.request.use((config) => {
   }
 
   try {
-    const stored = localStorage.getItem('mediSync_user');
+    const stored = localStorage.getItem('MediSync_user');
     if (stored) {
       const userData = JSON.parse(stored);
       if (userData?.token) {
@@ -29,13 +29,13 @@ api.interceptors.request.use((config) => {
         } else {
           
           console.warn('🔐 [SECURITY] Malformed token detected. Purging session.');
-          localStorage.removeItem('mediSync_user');
+          localStorage.removeItem('MediSync_user');
         }
       }
     }
   } catch (err) {
     console.error('[API] Auth interceptor error:', err);
-    localStorage.removeItem('mediSync_user');
+    localStorage.removeItem('MediSync_user');
   }
 
   
@@ -65,7 +65,7 @@ api.interceptors.response.use(
 
     if (error.response?.status === 401) {
       console.warn('🔐 [SECURITY] Session expired or unauthorized. Clearing credentials.');
-      localStorage.removeItem('mediSync_user');
+      localStorage.removeItem('MediSync_user');
       sessionStorage.clear();
       const publicPages = ['/', '/login', '/signup', '/forgot-password'];
       const isPublic = publicPages.includes(window.location.pathname);

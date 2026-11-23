@@ -8,7 +8,7 @@ const addDoctor = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI);
 
-    const exists = await User.findOne({ email: 'dhavnit.psy@medisync.app' });
+    const exists = await User.findOne({ email: 'dhavnit.psy@MediNovaPlus.app' });
     if (exists) {
       console.log('Dr. Dhavnit already exists.');
       process.exit(0);
@@ -16,7 +16,7 @@ const addDoctor = async () => {
 
     await User.create({
       name: 'Dr. Dhavnit',
-      email: 'dhavnit.psy@medisync.app',
+      email: 'dhavnit.psy@MediNovaPlus.app',
       password: 'password123',
       role: 'Doctor',
       specialty: 'Psychiatrist',

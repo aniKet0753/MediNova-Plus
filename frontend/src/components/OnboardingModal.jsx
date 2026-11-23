@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { X, ArrowRight, ArrowLeft, Shield, Sparkles } from 'lucide-react';
 import { steps } from './onboardingData';
 
-const ONBOARDING_KEY = 'mediSync_onboarding_done';
+const ONBOARDING_KEY = 'MediNovaPlus_onboarding_done';
 
 const OnboardingModal = ({ userName }) => {
   const [visible, setVisible] = useState(false);

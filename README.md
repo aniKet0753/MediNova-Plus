@@ -98,7 +98,7 @@ graph TD
 ## 📂 Project Structure
 
 ```text
-mediSync/
+MediNova-Plus/
 ├── frontend/               # Clinical Interface (Vite + React)
 │   ├── src/
 │   │   ├── components/     # High-fidelity reusable UI nodes
@@ -120,7 +120,7 @@ mediSync/
 ### **1. Clone the Protocol**
 ```bash
 git clone https://github.com/aniKet0753/MediCareX.git
-cd MediNova plus+
+cd MediNova-Plus
 ```
 
 ### **2. Orchestrate Backend Intelligence**
@@ -153,7 +153,7 @@ npm run dev
 ---
 
 ## 🤝 Clinical Ethics & Contribution
-We welcome contributions that align with our mission. Please adhere to the **MediNova plus+ Tactical Protocol**:
+We welcome contributions that align with our mission. Please adhere to the **MediNova Plus+ Tactical Protocol**:
 1. **Dossier Selection**: Choose an open clinical node.
 2. **Audit**: Ensure code meets the modularization mandate.
 
@@ -173,7 +173,7 @@ We welcome contributions that align with our mission. Please adhere to the **Med
 
   <br />
 
-  **MediNova plus+ Core Technologies Version 0.1**
+  **MediNova Plus+ Core Technologies Version 0.1**
   <br />
   _Synchronizing the Future of Global Healthcare_
 </div>

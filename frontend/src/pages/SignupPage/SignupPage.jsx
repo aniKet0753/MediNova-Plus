@@ -23,16 +23,16 @@ const SignupPage = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   
-  const [step, setStep] = useState(() => storage.getSession('mediSync_signup_step') || 0);
-  const [selectedPlan, setSelectedPlan] = useState(() => storage.getSession('mediSync_signup_plan') || 'Free');
+  const [step, setStep] = useState(() => storage.getSession('MediSync_signup_step') || 0);
+  const [selectedPlan, setSelectedPlan] = useState(() => storage.getSession('MediSync_signup_plan') || 'Free');
   
   const navigate = useNavigate();
   const location = useLocation();
   const { signup } = useAuth();
 
   useEffect(() => {
-    storage.setSession('mediSync_signup_step', step);
-    storage.setSession('mediSync_signup_plan', selectedPlan);
+    storage.setSession('MediSync_signup_step', step);
+    storage.setSession('MediSync_signup_plan', selectedPlan);
   }, [step, selectedPlan]);
 
   useEffect(() => {

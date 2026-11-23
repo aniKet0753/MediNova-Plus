@@ -29,7 +29,7 @@ const PharmacyVerificationTable = ({ pharmacies }) => {
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "medisync_pharmacy_nodes.csv");
+    link.setAttribute("download", "MediNovaPlus_pharmacy_nodes.csv");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

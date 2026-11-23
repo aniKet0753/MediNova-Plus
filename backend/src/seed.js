@@ -47,7 +47,7 @@ const seedData = async () => {
     
     await User.create({
       name: 'Admin MediSync',
-      email: 'admin@medisync.com',
+      email: 'admin@MediNovaPlus.com',
       password: 'Admin@1234',
       role: 'Admin',
     });
@@ -55,7 +55,7 @@ const seedData = async () => {
     
     const doctorUser = await User.create({
       name: 'Dr. Anjali Mehta',
-      email: 'anjali@medisync.app',
+      email: 'anjali@MediNovaPlus.app',
       password: 'password123',
       role: 'Doctor',
       specialty: 'Cardiologist',
@@ -69,7 +69,7 @@ const seedData = async () => {
     
     const doctorKamlesh = await User.create({
       name: 'Dr. Kamlesh',
-      email: 'kamlesh@medisync.app',
+      email: 'kamlesh@MediSync.app',
       password: 'password123',
       role: 'Doctor',
       specialty: 'Orthopedic',
@@ -84,7 +84,7 @@ const seedData = async () => {
 
     await User.create({
       name: 'Dr. Dashrat',
-      email: 'dashrat.neuro@medisync.app',
+      email: 'dashrat.neuro@MediNovaPlus.app',
       password: 'password123',
       role: 'Doctor',
       specialty: 'Neurologist',
@@ -99,7 +99,7 @@ const seedData = async () => {
 
     await User.create({
       name: 'Dr. Dhavnit',
-      email: 'dhavnit.psy@medisync.app',
+      email: 'dhavnit.psy@MediNovaPlus.app',
       password: 'password123',
       role: 'Doctor',
       specialty: 'Psychiatrist',
@@ -123,7 +123,7 @@ const seedData = async () => {
         time: '10:00 AM - 10:30 AM',
         type: 'Video Consult',
         status: 'Upcoming',
-        meetingLink: 'https://medisync.app/meet/mock-video-call',
+        meetingLink: 'https://MediNovaPlus.app/meet/mock-video-call',
       },
       {
         patient: testUser._id,

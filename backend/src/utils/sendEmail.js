@@ -12,7 +12,7 @@ const sendEmail = async (options) => {
   });
 
   const message = {
-    from: `${process.env.FROM_NAME || 'MediSync Support'} <${process.env.FROM_EMAIL || 'support@medisync.app'}>`,
+    from: `${process.env.FROM_NAME || 'MediSync Support'} <${process.env.FROM_EMAIL || 'support@MediNovaPlus.app'}>`,
     to: options.email,
     subject: options.subject,
     text: options.message,
